@@ -8,7 +8,7 @@
 string Prompt (string message)
 {
     Console.Write(message);
-    string number = Console.ReadLine();
+    string number = Console.ReadLine()!;
     return number;
 }
 
